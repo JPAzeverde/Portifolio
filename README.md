@@ -2,7 +2,7 @@
 
 Este é o repositório do meu portfólio pessoal, desenvolvido com o objetivo de apresentar meus projetos, experiências, habilidades e formas de contato.
 
-🔗 Acesse online: [https://jpazevdo-portifolio.vercel.app/](https://portifolio-alpha-one-76.vercel.app/)
+🔗 Acesse online: https://jpazevedo.vercel.app/
 
 ---
 
