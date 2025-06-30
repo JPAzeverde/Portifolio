@@ -214,9 +214,6 @@ export function CurriculoSection() {
                 <Grid size={{ xs: 12, md: 4 }}>
                     <StyledH3 className="mb-2 border-bottom">Cursos e Certificações</StyledH3>
                     <StyledP className="mb-1">
-                        <strong>Desenvolvimento Web – DNC</strong> (80h): HTML, CSS, JS, TypeScript, React, Git
-                    </StyledP>
-                    <StyledP className="mb-1">
                         <strong>Fundamentos de C# com Certificação Microsoft</strong> (20h)
                     </StyledP>
                     <StyledP className="mb-1">
