@@ -6,7 +6,7 @@ import { pxToRem } from "@/utils";
 
 import styled from "styled-components";
 
-const ProjectBox = styled.div<{ isLast?: boolean }>`
+const ProjectBox = styled.div`
   padding-bottom: 24px;
   margin-bottom: 24px;
   border-bottom: ${(props) => `1px solid ${props.theme.borderBottomHeader}`};
@@ -25,7 +25,7 @@ export function ProjectCardList({ projects,title }: ProjectCardListProps) {
         <StyledH4 className="mb-2">{title}</StyledH4>
         {projects.map((project, index) => (
             <Grid key={index} size={{ xs: 12 }}>
-                <ProjectBox isLast={index === projects.length - 1}>
+                <ProjectBox>
                     <a href={project.link} target="_blank">
                         <Box sx={{ display: "flex", flexDirection: { xs: "column", md: "row", }, gap: 5, alignItems: { xs: "center", md: "flex-start" }, }}>
                             {project.image && (

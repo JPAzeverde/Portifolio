@@ -25,12 +25,12 @@ export const GlobalStyles = createGlobalStyle<{ theme?: DefaultTheme }>`
 
     }
     img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 8px;
-    display: block;
-    box-shadow: 400px 400px 400px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 8px;
+        display: block;
+        box-shadow: 400px 400px 400px rgba(0, 0, 0, 0.3);
     }
 
     .mt-1{
