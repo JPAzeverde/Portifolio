@@ -26,7 +26,7 @@ function Home() {
     });
 
     fetchProjectsFromGoogleSheet(3).then((data) => {
-      setLatestProjects(data);
+      setLatestProjects(data.reverse());
     });
   }, []);
 
