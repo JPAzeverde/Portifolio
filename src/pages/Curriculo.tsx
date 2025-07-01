@@ -11,8 +11,7 @@ export default function CurriculoPage() {
   useEffect(() => {
     fetchProjectsFromGoogleSheet().then((data) => {
       
-        setFeaturedProject([data[-1]]);
-      
+        setFeaturedProject([data[data.length - 1]]);      
     });
   }, []);
 
