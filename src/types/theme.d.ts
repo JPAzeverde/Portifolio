@@ -7,6 +7,7 @@ export interface Theme {
   avatar: string;
   borderBottomHeader:string;
   shadow: string;
+  logo: string;
   buttons: {
     primaryColor: string;
     primaryBackground: string;

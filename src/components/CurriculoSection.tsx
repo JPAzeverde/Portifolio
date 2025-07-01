@@ -39,7 +39,7 @@ export function CurriculoSection() {
         
             <Grid container sx={{ textAlign: "center", mb: 5 }} spacing={1}>
                 <Grid size={{ xs: 12, sm: 4, md:3 }}>
-                    <img src="projeto1.svg" alt="Foto João Pedro" style={{ maxWidth: "100%", objectFit: "cover" }} />
+                    <img src="IMG_Perfil_Portifolio.jpg" alt="Foto João Pedro" style={{ maxWidth: "100%", objectFit: "cover" }} />
                 </Grid>
                 <Grid
                     size={{ xs: 12, sm: 8, md:8 }}

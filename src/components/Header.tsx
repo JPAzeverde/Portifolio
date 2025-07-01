@@ -1,7 +1,7 @@
 import { Avatar, Box, Container, Menu, MenuItem } from "@mui/material"
 import { pxToRem } from "@/utils"
 import { Link } from "react-router-dom"
-import styled from "styled-components"
+import styled, { useTheme } from "styled-components"
 import { StyledButton } from "./StyledButtons"
 import { useContext, useState } from "react"
 import { AppThemeContext } from "@/context/AppThemeContext"
@@ -12,6 +12,8 @@ const StyledHeader = styled.div`
     margin-bottom: ${pxToRem(37)};
     width: 100%;
 `
+
+
 
 const LinksContainer = styled(Box)`
     align-items: center;
@@ -43,6 +45,7 @@ const StyledLink = styled(Link)`
 
 
 export function Header() {
+    const theme = useTheme();
     const themeConstext = useContext(AppThemeContext)
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
     const menuOpen = Boolean(anchorEl)
@@ -65,7 +68,7 @@ export function Header() {
                     height: pxToRem(64)
                 }}>
                     <Link to='/'>
-                        <Avatar alt="Avatar" src="/JPA.png" sx={{ width: pxToRem(40), height: pxToRem(40) }} />
+                        <Avatar alt="Avatar" src={theme.logo} sx={{ width: pxToRem(50), height: pxToRem(50) }} />
                     </Link>
 
                     {/* Links visíveis apenas em telas grandes */}

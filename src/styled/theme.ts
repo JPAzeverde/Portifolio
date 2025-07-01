@@ -9,6 +9,7 @@ export const lightTheme: Theme = {
   avatar: 'JPA.png',
   borderBottomHeader: '#E0E0E0',
   shadow: '#000000',
+  logo:'jpbaFundoClaro.png',
   buttons: {
     primaryColor: '#FFFFFF',
     primaryBackground: '#FF6464',
@@ -35,6 +36,7 @@ export const darkTheme: Theme = {
   avatar: 'JPA.png',
   borderBottomHeader: '#2C2C2C',
   shadow: '#FFFFFF',
+  logo:'jpbaFundoEscuro.png',
   buttons: {
     primaryColor: '#FFFFFF',
     primaryBackground: '#2196F3', 
