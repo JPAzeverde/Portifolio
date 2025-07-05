@@ -38,11 +38,30 @@ export const StyledButton = styled.button<ButtonProps>`
       color: ${(props) => props.theme.buttons.themeColorHover};
     }
   }
+  &.language {
+    background-color: transparent;
+    width: ${pxToRem(28)};
+    height: ${pxToRem(28)};
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
 
   @media (max-width: 600px) {
-    font-size: ${pxToRem(12)};
-    height: ${pxToRem(28)};
-    padding: 0 ${pxToRem(8)};
-    min-width: ${pxToRem(70)};
+
   }
 `;
