@@ -1,5 +1,5 @@
 import { Box, Container, Grid } from "@mui/material";
-import {GitIcon,InstagramIcon,LinkedInIcon, StyledH3,StyledH4, StyledP,WhatsAppIcon,IconWrapper} from "@/components";
+import {GitIcon,InstagramIcon,LinkedInIcon, StyledH3,StyledH4, StyledP,WhatsAppIcon,IconWrapper, StyledButton} from "@/components";
 import { pxToRem } from "@/utils";
 import styled from "styled-components";
 import { CardComponent } from "@/styled";
@@ -25,6 +25,14 @@ const HardSkilss = styled.div`
 
 export function CurriculoSection() {
   const { translations } = useLanguage();
+  const baixarCurriculo = () => {
+    const link = document.createElement("a")
+    link.href = "/CV_JoaoPedroAzevedo.pdf"  // Caminho do seu arquivo na pasta public
+    link.download = "CV_JoaoPedroAzevedo.pdf"  // Nome do arquivo ao baixar
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
   return (
     <Box className="bgSecundary" sx={{ py: 6 }}>
         <Container maxWidth="lg">
@@ -217,6 +225,9 @@ export function CurriculoSection() {
                     <StyledP className="mb-1">
                     <strong>{translations.curriculum.languages.spanish.title}:</strong> {translations.curriculum.languages.spanish.proficiency}
                     </StyledP>
+                </Grid>
+                <Grid size={{ xs: 12, md: 3 }}>
+                    <StyledButton className="primary" style={{margin: 'auto'}} onClick={baixarCurriculo}>{translations.homepage.downloadButton}</StyledButton>
                 </Grid>
             </Grid>
         </Container>
