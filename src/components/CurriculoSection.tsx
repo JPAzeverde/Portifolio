@@ -12,6 +12,7 @@ import {
 import { pxToRem } from "@/utils";
 import styled from "styled-components";
 import { CardComponent } from "@/styled";
+import { useLanguage } from "@/context";
 
 const Chip = styled.span`
   background-color: ${(props) => props.theme.buttons.primaryBackground};
@@ -33,6 +34,7 @@ const HardSkilss = styled.div`
 
 
 export function CurriculoSection() {
+  const { translations } = useLanguage();
   return (
     <Box className="bgSecundary" sx={{ py: 6 }}>
         <Container maxWidth="lg">
@@ -51,9 +53,9 @@ export function CurriculoSection() {
                     mb: 5,
                     }}
                 >
-                    <StyledH3 className="mb-1">João Pedro Brito de Azevedo</StyledH3>
-                    <StyledP>24 anos, Lavras/MG</StyledP>
-                    <StyledP>(35) 99731-8190</StyledP>
+                    <StyledH3 className="mb-1">João Pedro Azevedo</StyledH3>
+                    <StyledP>{translations.curriculum.location}</StyledP>
+                    <StyledP>+55 (35) 99731-8190</StyledP>
                     <StyledP>joaopzevedo@gmail.com</StyledP>
                 </Grid>
                 <Grid
@@ -104,41 +106,22 @@ export function CurriculoSection() {
 
             {/* Resumo Profissional */}
             <Grid container sx={{ textAlign: "start", justifyContent: "center", mb: 5 }} spacing={2}>
-            <Grid size={{ xs: 12 }}>
-                <StyledH3 className="mb-1">Resumo Profissional</StyledH3>
-                <StyledP className="mb-2">
-                Graduando em Ciência da Computação pela UFLA, com experiência em desenvolvimento
-                web, análise de dados e automação de processos. Foco em UI/UX, responsividade, boas
-                práticas e performance.
-                </StyledP>
-            </Grid>
+                <Grid size={{ xs: 12 }}>
+                    <StyledH3 className="mb-1">{translations.curriculum.summaryTitle}</StyledH3>
+                    <StyledP className="mb-2">{translations.curriculum.summaryDescription}</StyledP>
+                </Grid>
             </Grid>
 
             {/* Habilidades Técnicas e Soft Skills */}
             <Grid container spacing={4} sx={{ mb: 5 }}>
             <Grid size={{ xs: 12, md: 6 }}>
                 <HardSkilss>
-                    <StyledH3 className="mb-2">Habilidades Técnicas</StyledH3>
+                    <StyledH3 className="mb-2">{translations.curriculum.hardSkills}</StyledH3>
                     <Grid container spacing={2}>
                     {[
-                        "HTML",
-                        "CSS",
-                        "SASS",
-                        "JavaScript",
-                        "TypeScript",
-                        "React",
-                        "Context API",
-                        "Git",
-                        "GitHub",
-                        "E2E",
-                        "Bootstrap",
-                        "Python",
-                        "Selenium",
-                        "MySQL",
-                        "Scrum",
-                        "UI/UX",
-                        "C#",
-                        "Figma",
+                        "HTML","CSS","SASS","JavaScript","TypeScript","React",
+                        "Context API","Git","GitHub","E2E","Bootstrap","Python",
+                        "Selenium","MySQL","Scrum","UI/UX","C#","Figma",
                     ].map((skill) => (
                         <Grid key={skill}>
                         <Chip>{skill}</Chip>
@@ -150,15 +133,12 @@ export function CurriculoSection() {
             </Grid>
 
             <Grid size={{ xs: 12, md: 6 }}>
-                <StyledH3 className="mb-2">Soft Skills</StyledH3>
+                <StyledH3 className="mb-2">{translations.curriculum.softSkills}</StyledH3>
                 <Grid container spacing={2}>
                     {[
-                    "Comunicação",
-                    "Trabalho em equipe",
-                    "Proatividade",
-                    "Adaptabilidade",
-                    "Resolução de problemas",
-                    "Gestão do tempo",
+                    "Comunicação","Trabalho em equipe",
+                    "Proatividade","Adaptabilidade",
+                    "Resolução de problemas","Gestão do tempo",
                     ].map((skill) => (
                     <Grid key={skill}>
                         <Chip>{skill}</Chip>
@@ -168,29 +148,28 @@ export function CurriculoSection() {
             </Grid>
         </Grid>
             <Grid container>
-                <StyledH3 className="mb-2 mt-2">Experiência Profissional</StyledH3>
+                <StyledH3 className="mb-2 mt-2">{translations.curriculum.experienceTitle}</StyledH3>
                 <Grid container spacing={2} sx={{ mb: 4 }}>
-                {[
-                    {
-                    cargo: "Estagiário em Desenvolvimento Web – Unilavras",
-                    periodo: "Dez/2024 – Atual",
-                    descricao: "Desenvolvimento de páginas institucionais com React, TypeScript e Bootstrap. Responsividade, SEO e reuniões com marketing.",
+                {[ {
+                    cargo: `${translations.curriculum.experience0.position}`,
+                    periodo: `${translations.curriculum.experience0.period}`,
+                    descricao: `${translations.curriculum.experience0.description}`,
                     },
                     {
-                    cargo: "Analista de Dados – Solar Gun",
-                    periodo: "Jan/2023 – Jun/2024",
-                    descricao: "Automatização de análise de documentos técnicos com Python e preenchimento automático de planilhas.",
+                    cargo: `${translations.curriculum.experience1.position}`,
+                    periodo: `${translations.curriculum.experience1.period}`,
+                    descricao: `${translations.curriculum.experience1.description}`,
                     },
                     {
-                    cargo: "Web Developer – Grupo Glorium",
-                    periodo: "Jun/2023 – Dez/2023",
-                    descricao: "Criação de sites responsivos com HTML, CSS (SASS), Bootstrap, JavaScript e PHP. Foco em acessibilidade e UX/UI.",
+                    cargo: `${translations.curriculum.experience2.position}`,
+                    periodo: `${translations.curriculum.experience2.period}`,
+                    descricao: `${translations.curriculum.experience2.description}`,
                     },
                     {
-                    cargo: "Analista de Dados – Sol Nascente Energia Solar",
-                    periodo: "Jan/2022 – Dez/2022",
-                    descricao: "Análise de desempenho de usinas com BI e Excel. Elaboração de relatórios técnicos com insights para clientes.",
-                    },
+                    cargo: `${translations.curriculum.experience3.position}`,
+                    periodo: `${translations.curriculum.experience3.period}`,
+                    descricao: `${translations.curriculum.experience3.description}`,
+                    }
                 ].map((exp, index) => (
                     <Grid key={index} size={{ xs: 12, md: 6 }}>
                     <CardComponent>
@@ -202,35 +181,49 @@ export function CurriculoSection() {
                 ))}
                 </Grid>
             </Grid>
-            <Grid container spacing={4} sx={{ mt: 4 }}>
+            <Grid container spacing={4}>
   
-                <Grid size={{ xs: 12, md: 4 }}>
-                    <StyledH3 className="mb-2 border-bottom">Formação Acadêmica</StyledH3>
-                    <StyledP className="mb-1">
-                        <strong>Bacharelado em Ciência da Computação – UFLA</strong> (2022 – 2026)
+                <Grid size={{ xs: 12, md: 5 }}  sx={{ mb: 2 }}>
+                    <StyledH3 className="mt-2 mb-2 border-bottom">{translations.curriculum.educationTitle}</StyledH3>
+                    <StyledP>
+                        <strong>{translations.curriculum.education.title}</strong> {translations.curriculum.education.date}
                     </StyledP>
                 </Grid>
 
-                <Grid size={{ xs: 12, md: 4 }}>
-                    <StyledH3 className="mb-2 border-bottom">Cursos e Certificações</StyledH3>
-                    <StyledP className="mb-1">
-                        <strong>Fundamentos de C# com Certificação Microsoft</strong> (20h)
-                    </StyledP>
-                    <StyledP className="mb-1">
-                        <strong>LGPD</strong> (8h) • <strong>Segurança da Informação</strong> (10h)
-                    </StyledP>
+                <Grid spacing={2} sx={{ mb: 2 }} size={{ xs: 12, md: 5 }}>
+                    <StyledH3 className="mb-2">{translations.curriculum.certifications.title}</StyledH3>
+                    {[ {
+                        title: `${translations.curriculum.certifications.course0.title}`,
+                        hours: `${translations.curriculum.certifications.course0.hours}`,
+                        description: `${translations.curriculum.certifications.course0.description}`,
+                        },
+                        {
+                        title: `${translations.curriculum.certifications.course1.title}`,
+                        hours: `${translations.curriculum.certifications.course1.hours}`,
+                        description: `${translations.curriculum.certifications.course1.description}`,
+                        },
+                        {
+                        title: `${translations.curriculum.certifications.course2.title}`,
+                        hours: `${translations.curriculum.certifications.course2.hours}`,
+                        description: `${translations.curriculum.certifications.course2.description}`,
+                        }
+                    ].map((exp, index) => (
+                        <Grid key={index} >
+                            <StyledP className="ellipsisP"><strong>{exp.title}</strong> - {exp.hours}</StyledP>
+                            <StyledP className="mb-1">{exp.description}</StyledP>
+                        </Grid>
+                    ))}
                 </Grid>
-
-                <Grid size={{ xs: 12, md: 4 }}>
-                    <StyledH3 className="mb-2 border-bottom">Idiomas</StyledH3>
-                    <StyledP>
-                    <strong>Português:</strong> Nativo
+                <Grid size={{ xs: 12, md: 2 }}>
+                    <StyledH3 className="mb-2 border-bottom">{translations.curriculum.languages.title}</StyledH3>
+                    <StyledP className="mb-1">
+                    <strong>{translations.curriculum.languages.portuguese.title}:</strong> {translations.curriculum.languages.portuguese.proficiency}
                     </StyledP>
-                    <StyledP>
-                    <strong>Inglês:</strong> Avançado
-                    </StyledP>
-                    <StyledP>
-                    <strong>Espanhol:</strong> Intermediário (leitura, escrita, fala) | Avançado (escuta)
+                    <StyledP className="mb-1">
+                    <strong>{translations.curriculum.languages.english.title}:</strong> {translations.curriculum.languages.english.proficiency}
+                    </StyledP >
+                    <StyledP className="mb-1">
+                    <strong>{translations.curriculum.languages.spanish.title}:</strong> {translations.curriculum.languages.spanish.proficiency}
                     </StyledP>
                 </Grid>
             </Grid>

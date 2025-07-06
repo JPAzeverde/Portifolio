@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import styled, { useTheme } from "styled-components"
 import { StyledButton } from "./StyledButtons"
 import { useContext, useState } from "react"
-import { AppThemeContext } from "@/context/AppThemeContext"
+import { AppThemeContext, useLanguage  } from "@/context"
 import MenuIcon from "@mui/icons-material/Menu"
 
 // Importando imagens das bandeiras
@@ -58,6 +58,8 @@ export function Header() {
     const themeContext = useContext(AppThemeContext)
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
     const menuOpen = Boolean(anchorEl)
+    const { translations, setLanguage, language } = useLanguage();
+
 
     const handleMenuClick = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget)
@@ -69,18 +71,27 @@ export function Header() {
 
     return (
         <StyledHeader>
-            {/* Botões de idioma */}
             <LanguageSwitcherContainer>
-                <StyledButton className="language">
-                    <img src="usa.png" alt="English" />
-                </StyledButton>
-                <StyledButton className="language">
-                    <img src="espanha.png" alt="Español" />
-                </StyledButton>
-                <StyledButton className="language">
-                    <img src="brasil.png" alt="portuguese" />
-                </StyledButton>
+                {language !== "en" && (
+                    <StyledButton className="language" onClick={() => setLanguage("en")}>
+                        <img src="usa.png" alt="English" />
+                    </StyledButton>
+                )}
+
+                {language !== "es" && (
+                    <StyledButton className="language" onClick={() => setLanguage("es")}>
+                        <img src="espanha.png" alt="Español" />
+                    </StyledButton>
+                )}
+
+                {language !== "br" && (
+                    <StyledButton className="language" onClick={() => setLanguage("br")}>
+                        <img src="brasil.png" alt="Português" />
+                    </StyledButton>
+                )}
             </LanguageSwitcherContainer>
+
+
 
             <Container maxWidth="lg">
                 <Box sx={{
@@ -94,12 +105,12 @@ export function Header() {
                     </Link>
 
                     <LinksContainer>
-                        <Link to='/project'>Projetos</Link>
-                        <Link to='/curriculo'>Currículo</Link>
-                        <a href='#FOOTER'>Contato</a>
+                        <Link to='/project'>{translations.projects.title}</Link>
+                        <Link to='/curriculo'>{translations.curriculum.title}</Link>
+                        <a href='#FOOTER'>{translations.contact.title}</a>
                         <Link to='/news'>News</Link>
                         <StyledButton className="theme" onClick={themeContext?.toggleTheme}>
-                            Tema
+                            {translations.theme}
                         </StyledButton>
                     </LinksContainer>
 
@@ -121,13 +132,13 @@ export function Header() {
                         }}
                     >
                         <MenuItem onClick={handleMenuClose}>
-                            <StyledLink to='/project'>Projetos</StyledLink>
+                            <StyledLink to='/project'>{translations.projects.title}</StyledLink>
                         </MenuItem>
                         <MenuItem onClick={handleMenuClose}>
-                            <StyledLink to='/curriculo'>Currículo</StyledLink>
+                            <StyledLink to='/curriculo'>{translations.curriculum.title}</StyledLink>
                         </MenuItem>
                         <MenuItem onClick={handleMenuClose}>
-                            <a href='#FOOTER' style={{ color: '#000000' }}>Contato</a>
+                            <a href='#FOOTER' style={{ color: '#000000' }}>{translations.contact.title}</a>
                         </MenuItem>
                         <MenuItem onClick={handleMenuClose}>
                             <StyledLink to='/news'>News</StyledLink>
@@ -136,7 +147,7 @@ export function Header() {
                             themeContext?.toggleTheme()
                             handleMenuClose()
                         }}>
-                            Tema
+                            {translations.theme}
                         </MenuItem>
                     </Menu>
                 </Box>

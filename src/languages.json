@@ -27,6 +27,7 @@
       "summaryDescription": "Graduando em Ciência da Computação pela UFLA, com experiência em desenvolvimento web, automação de processos e análise de dados. Foco em responsividade, boas práticas de UI/UX e performance.",
       "hardSkills": "Habilidades Técnicas",
       "softSkills": "Habilidades Comportamentais",
+      "experienceTitle":"Experiencias Profisionais",
       "experience0": {
         "position": "Estagiário em Desenvolvimento Web – Unilavras",
         "period": "Dez/2024 – Atual",
@@ -113,6 +114,7 @@
       "summaryDescription": "Computer Science undergraduate at UFLA with experience in web development, process automation, and data analysis. Focused on responsive design, UI/UX best practices, and performance.",
       "hardSkills": "Technical Skills",
       "softSkills": "Soft Skills",
+      "experienceTitle":"Experiencias Profisionais",
       "experience0": {
         "position": "Web Development Intern – Unilavras",
         "period": "Dec/2024 – Present",
@@ -173,7 +175,93 @@
       }
     },
     "theme": "Theme"
+  },
+  "es": {
+    "homepage": {
+      "title1": "Hola, soy João Pedro",
+      "title2": "Desarrollador Front-End",
+      "subtitle": "Especializado en React, TypeScript, JavaScript, HTML, CSS y Python, desarrollo sitios web responsivos, de alto rendimiento y centrados en las mejores prácticas de UI/UX. Con experiencia en automatización de procesos, mi objetivo es crear soluciones funcionales orientadas a la experiencia del usuario.",
+      "downloadButton": "Descargar CV"
+    },
+    "about": {
+      "title": "Sobre mí",
+      "description": "Desarrollador front-end apasionado por la tecnología, el diseño y la innovación. Comprometido con crear interfaces intuitivas y eficientes."
+    },
+    "contact": {
+      "title": "Contacto"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "subtitle": "Selección de trabajos clave que han marcado mi trayectoria de aprendizaje, incluyendo proyectos personales, académicos y profesionales."
+    },
+    "curriculum": {
+      "title": "Currículum",
+      "location": "24 años, Lavras/MG - Brasil",
+      "summaryTitle": "Perfil Profesional",
+      "summaryDescription": "Estudiante de Ciencias de la Computación en la UFLA con experiencia en desarrollo web, automatización de procesos y análisis de datos. Especial enfoque en diseño responsivo, mejores prácticas de UI/UX y optimización de performance.",
+      "hardSkills": "Habilidades Técnicas",
+      "softSkills": "Habilidades Blandas",
+      "experienceTitle":"Experiencias Profisionais",
+      "experience0": {
+        "position": "Practicante en Desarrollo Web – Unilavras",
+        "period": "Dic/2024 – Actual",
+        "description": "Desarrollo de páginas institucionales utilizando React, TypeScript y Bootstrap. Enfoque en responsividad, SEO y trabajo colaborativo con el equipo de marketing."
+      },
+      "experience1": {
+        "position": "Analista de Datos – Solar Gun",
+        "period": "Ene/2023 – Jun/2024",
+        "description": "Automatización de análisis de documentos técnicos mediante Python e integración con hojas de cálculo para optimización de procesos internos."
+      },
+      "experience2": {
+        "position": "Formación en Desarrollo Web – Grupo Glorium",
+        "period": "Jun/2023 – Dic/2023",
+        "description": "Creación de sitios web responsivos con HTML, CSS (SASS), Bootstrap, JavaScript y PHP. Énfasis en accesibilidad y mejores prácticas de UX/UI."
+      },
+      "experience3": {
+        "position": "Analista de Datos – Sol Nascente Energía Solar",
+        "period": "Ene/2022 – Dic/2022",
+        "description": "Análisis de desempeño de plantas solares utilizando Excel. Elaboración de informes técnicos con insights valiosos para clientes."
+      },
+      "educationTitle": "Formación Académica",
+      "education": {
+        "title": "Licenciatura en Ciencias de la Computación – UFLA",
+        "date": " (2022 – 2026)"
+      },
+      "certifications": {
+        "title": "Certificaciones y Cursos",
+        "course0": {
+          "title": "Desarrollador Front-End - DNC",
+          "hours": "(80h)",
+          "description": "Dominio de HTML, CSS, JavaScript, Vite, React, TypeScript, pruebas unitarias con Jest, pruebas end-to-end, hooks y Axios."
+        },
+        "course1": {
+          "title": "Fundamentos de C# - Microsoft",
+          "hours": "(20h)",
+          "description": "Conceptos esenciales y fundamentos del lenguaje C#."
+        },
+        "course2": {
+          "title": "Seguridad en TI - Fundación Bradesco",
+          "hours": "(12h)",
+          "description": "Conocimientos en LGPD (Ley de Protección de Datos) y fundamentos de seguridad informática."
+        }
+      },
+      "languages": {
+        "title": "Idiomas",
+        "portuguese": {
+          "title": "Portugués",
+          "proficiency": "Nativo"
+        },
+        "english": {
+          "title": "Inglés",
+          "proficiency": "Intermedio"
+        },
+        "spanish": {
+          "title": "Español",
+          "proficiency": "Intermedio"
+        }
+      }
+    },
+    "theme": "Tema"
   }
+
 }
-
-

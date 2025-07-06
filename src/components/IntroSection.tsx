@@ -1,6 +1,7 @@
 import { Grid, Container } from '@mui/material';
 import { StyledH2, StyledP, StyledButton } from '@/components';
 import { pxToRem } from '@/utils';
+import { useLanguage } from "@/context";
 
 export function IntroSection() {
   const baixarCurriculo = () => {
@@ -11,6 +12,8 @@ export function IntroSection() {
     link.click()
     document.body.removeChild(link)
   }
+
+  const { translations } = useLanguage();
   return (
     <Container maxWidth="lg">
       <Grid container>
@@ -25,16 +28,14 @@ export function IntroSection() {
           }}
         >
           <StyledH2 className="mb-1">
-            Olá, eu sou João Pedro <br /> Desenvolvedor Front-End
+             {translations.homepage.title1}<br/>{translations.homepage.title2}
           </StyledH2>
-          <StyledP className="mb-1">
-            Atuo com React, TypeScript, JavaScript, HTML, CSS e Python, criando sites responsivos e eficientes. Tenho experiência em desenvolvimento front-end, automação de processos e boas práticas de UI/UX. Busco sempre entregar soluções de qualidade e com foco no usuário.
-          </StyledP>
+          <StyledP className="mb-1">{translations.homepage.subtitle}</StyledP>
           <Grid
             size={{ xs: 12, sm: 5, md: 5, lg: 5 }}
             sx={{ alignItems: 'flex-start' }}
           >
-            <StyledButton className="primary" onClick={baixarCurriculo}>Download Currículo</StyledButton>
+            <StyledButton className="primary" onClick={baixarCurriculo}>{translations.homepage.downloadButton}</StyledButton>
           </Grid>
         </Grid>
       </Grid>
