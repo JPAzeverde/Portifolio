@@ -145,14 +145,14 @@ export function CurriculoSection() {
                     descricao: `${translations.curriculum.experience0.description}`,
                     },
                     {
-                    cargo: `${translations.curriculum.experience1.position}`,
-                    periodo: `${translations.curriculum.experience1.period}`,
-                    descricao: `${translations.curriculum.experience1.description}`,
-                    },
-                    {
                     cargo: `${translations.curriculum.experience2.position}`,
                     periodo: `${translations.curriculum.experience2.period}`,
                     descricao: `${translations.curriculum.experience2.description}`,
+                    },
+                    {
+                    cargo: `${translations.curriculum.experience1.position}`,
+                    periodo: `${translations.curriculum.experience1.period}`,
+                    descricao: `${translations.curriculum.experience1.description}`,
                     },
                     {
                     cargo: `${translations.curriculum.experience3.position}`,
