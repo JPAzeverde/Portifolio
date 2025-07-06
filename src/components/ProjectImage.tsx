@@ -1,7 +1,6 @@
 import { pxToRem } from "@/utils"
 import styled from "styled-components"
 
-
 export const ProjectImage = styled.figure<{  height: number; width: number }>`
     background-size:cover;
     background-image: url('/projeto1.svg');

@@ -1,12 +1,14 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useCallback } from "react";
 import languages from "@/languages.json";
 
 const validLanguages = ["br", "en", "es"] as const;
-type LanguageKey = typeof validLanguages[number];
+
+type LanguageKey = string; // Still allowing string for flexibility in input
 
 interface LanguageContextProps {
   language: LanguageKey;
   setLanguage: (lang: LanguageKey) => void;
+  // This type definition is precise, expecting the structure of languages["br"]
   translations: typeof languages["br"];
 }
 
@@ -15,20 +17,22 @@ const LanguageContext = createContext<LanguageContextProps | undefined>(undefine
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
   const [language, setLanguageState] = useState<LanguageKey>("br");
 
-  const setLanguage = (lang: string) => {
-    if (validLanguages.includes(lang as LanguageKey)) {
-      setLanguageState(lang as LanguageKey);
+  const setLanguage = useCallback((lang: LanguageKey) => {
+    // Asserting the type for `includes` check
+    if (validLanguages.includes(lang as (typeof validLanguages)[number])) {
+      setLanguageState(lang);
     } else {
-      console.warn(`Idioma inválido: ${lang}, definindo para 'br'`);
+      console.warn(`Invalid language "${lang}" provided. Reverting to "br".`);
       setLanguageState("br");
     }
-    console.log("Idioma atual no contexto:", language);
-  };
+  }, []);
 
   const value = {
     language,
     setLanguage,
-    translations: languages[language],
+    // THE FIX IS HERE: Explicitly assert that 'language' is one of the valid keys
+    // to ensure 'translations' matches the expected object type.
+    translations: languages[language as "br" | "en" | "es"],
   };
 
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;

@@ -60,7 +60,6 @@ export const StyledButton = styled.button<ButtonProps>`
     }
   }
 
-
   @media (max-width: 600px) {
 
   }
