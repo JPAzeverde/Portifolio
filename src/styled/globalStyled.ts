@@ -24,16 +24,17 @@ export const GlobalStyles = createGlobalStyle<{ theme?: DefaultTheme }>`
         color: ${(props) => props.theme.primaryHover};
 
     }
-
     .mt-1{
         margin-top: ${pxToRem(16)};
     }
-    
     .mt-2{
         margin-top: ${pxToRem(32)};
     }
     .mb-1{
         margin-bottom: ${pxToRem(16)};
+    }
+    .fz-18{
+        font-size: ${pxToRem(18)}
     }
     
     .mb-2{

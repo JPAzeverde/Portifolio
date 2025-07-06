@@ -1,14 +1,5 @@
 import { Box, Container, Grid } from "@mui/material";
-import {
-  FacebookIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  StyledH3,
-  StyledH4,
-  StyledP,
-  WhatsAppIcon,
-  IconWrapper,
-} from "@/components";
+import {GitIcon,InstagramIcon,LinkedInIcon, StyledH3,StyledH4, StyledP,WhatsAppIcon,IconWrapper} from "@/components";
 import { pxToRem } from "@/utils";
 import styled from "styled-components";
 import { CardComponent } from "@/styled";
@@ -32,26 +23,25 @@ const HardSkilss = styled.div`
   }
 `;
 
-
 export function CurriculoSection() {
   const { translations } = useLanguage();
   return (
     <Box className="bgSecundary" sx={{ py: 6 }}>
         <Container maxWidth="lg">
         
-            <Grid container sx={{ textAlign: "center", mb: 5 }} spacing={1}>
+            <Grid container sx={{ textAlign: { xs: "center", sm: "start" }, mb: 5 }} spacing={1}>
                 <Grid size={{ xs: 12, sm: 4, md:3 }}>
-                    <img src="IMG_Perfil_Portifolio.jpg" alt="Foto João Pedro" style={{ maxWidth: "100%", objectFit: "cover" }} />
+                    <img src="IMG_Perfil_Portifolio.jpg" alt="Foto João Pedro" style={{ maxWidth: "80%", objectFit: "cover", borderRadius: pxToRem(8)}}/>
                 </Grid>
                 <Grid
-                    size={{ xs: 12, sm: 8, md:8 }}
+                    size={{ xs: 12, sm: 8,}}
                     sx={{
                     textAlign: { xs: "center", sm: "start" },
                     display: "flex",
-                    justifyContent: "center",
+                    justifyContent: "top",
                     flexDirection: "column",
                     mb: 5,
-                    }}
+                    mt: 2,}}
                 >
                     <StyledH3 className="mb-1">João Pedro Azevedo</StyledH3>
                     <StyledP>{translations.curriculum.location}</StyledP>
@@ -70,15 +60,15 @@ export function CurriculoSection() {
                     }}
                 >
                     <IconWrapper
-                    href="https://facebook.com"
+                    href="https://github.com/JPAzeverde"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Facebook"
                     >
-                        <FacebookIcon />
+                        <GitIcon />
                     </IconWrapper>
                     <IconWrapper
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/jpazeverde/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram"
@@ -86,7 +76,7 @@ export function CurriculoSection() {
                     <InstagramIcon />
                     </IconWrapper>
                     <IconWrapper
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/jpedro-azevedo/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
@@ -104,7 +94,6 @@ export function CurriculoSection() {
                 </Grid>
             </Grid>
 
-            {/* Resumo Profissional */}
             <Grid container sx={{ textAlign: "start", justifyContent: "center", mb: 5 }} spacing={2}>
                 <Grid size={{ xs: 12 }}>
                     <StyledH3 className="mb-1">{translations.curriculum.summaryTitle}</StyledH3>
@@ -112,41 +101,41 @@ export function CurriculoSection() {
                 </Grid>
             </Grid>
 
-            {/* Habilidades Técnicas e Soft Skills */}
             <Grid container spacing={4} sx={{ mb: 5 }}>
-            <Grid size={{ xs: 12, md: 6 }}>
-                <HardSkilss>
-                    <StyledH3 className="mb-2">{translations.curriculum.hardSkills}</StyledH3>
-                    <Grid container spacing={2}>
-                    {[
-                        "HTML","CSS","SASS","JavaScript","TypeScript","React",
-                        "Context API","Git","GitHub","E2E","Bootstrap","Python",
-                        "Selenium","MySQL","Scrum","UI/UX","C#","Figma",
-                    ].map((skill) => (
-                        <Grid key={skill}>
-                        <Chip>{skill}</Chip>
+                <Grid size={{ xs: 12, md: 6 }}>
+                    <HardSkilss>
+                        <StyledH3 className="mb-2">{translations.curriculum.hardSkills}</StyledH3>
+                        <Grid container spacing={2}>
+                        {[
+                            "HTML","CSS","SASS","JavaScript","TypeScript","React",
+                            "Context API","Git","GitHub","E2E","Bootstrap","Python",
+                            "Selenium","MySQL","Scrum","UI/UX","C#","Figma",
+                        ].map((skill) => (
+                            <Grid key={skill}>
+                                <Chip>{skill}</Chip>
+                            </Grid>
+                        ))}
+                        
                         </Grid>
-                    ))}
-                    
-                    </Grid>
-                </HardSkilss>
-            </Grid>
+                    </HardSkilss>
+                </Grid>
 
-            <Grid size={{ xs: 12, md: 6 }}>
-                <StyledH3 className="mb-2">{translations.curriculum.softSkills}</StyledH3>
-                <Grid container spacing={2}>
-                    {[
-                    "Comunicação","Trabalho em equipe",
-                    "Proatividade","Adaptabilidade",
-                    "Resolução de problemas","Gestão do tempo",
-                    ].map((skill) => (
-                    <Grid key={skill}>
-                        <Chip>{skill}</Chip>
+                <Grid size={{ xs: 12, md: 6 }}>
+                    <StyledH3 className="mb-2">{translations.curriculum.softSkills}</StyledH3>
+                    <Grid container spacing={2}>
+                        {[
+                        "Comunicação","Trabalho em equipe",
+                        "Proatividade","Adaptabilidade",
+                        "Resolução de problemas","Gestão do tempo",
+                        ].map((skill) => (
+                        <Grid key={skill}>
+                            <Chip>{skill}</Chip>
+                        </Grid>
+                        ))}
                     </Grid>
-                    ))}
                 </Grid>
             </Grid>
-        </Grid>
+
             <Grid container>
                 <StyledH3 className="mb-2 mt-2">{translations.curriculum.experienceTitle}</StyledH3>
                 <Grid container spacing={2} sx={{ mb: 4 }}>
@@ -181,16 +170,10 @@ export function CurriculoSection() {
                 ))}
                 </Grid>
             </Grid>
+            
             <Grid container spacing={4}>
-  
-                <Grid size={{ xs: 12, md: 5 }}  sx={{ mb: 2 }}>
-                    <StyledH3 className="mt-2 mb-2 border-bottom">{translations.curriculum.educationTitle}</StyledH3>
-                    <StyledP>
-                        <strong>{translations.curriculum.education.title}</strong> {translations.curriculum.education.date}
-                    </StyledP>
-                </Grid>
 
-                <Grid spacing={2} sx={{ mb: 2 }} size={{ xs: 12, md: 5 }}>
+                 <Grid spacing={2} sx={{ mb: 2 }} size={{ xs: 12, md: 5 }}>
                     <StyledH3 className="mb-2">{translations.curriculum.certifications.title}</StyledH3>
                     {[ {
                         title: `${translations.curriculum.certifications.course0.title}`,
@@ -214,7 +197,16 @@ export function CurriculoSection() {
                         </Grid>
                     ))}
                 </Grid>
-                <Grid size={{ xs: 12, md: 2 }}>
+  
+                <Grid size={{ xs: 12, md: 4 }}  sx={{ mb: 2 }}>
+                    <StyledH3 className="mb-2 border-bottom">{translations.curriculum.educationTitle}</StyledH3>
+                    <StyledP>
+                        <strong>{translations.curriculum.education.title}</strong> {translations.curriculum.education.date}
+                    </StyledP>
+                </Grid>
+
+               
+                <Grid size={{ xs: 12, md: 3 }}>
                     <StyledH3 className="mb-2 border-bottom">{translations.curriculum.languages.title}</StyledH3>
                     <StyledP className="mb-1">
                     <strong>{translations.curriculum.languages.portuguese.title}:</strong> {translations.curriculum.languages.portuguese.proficiency}

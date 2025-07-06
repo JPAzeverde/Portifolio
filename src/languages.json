@@ -1,7 +1,4 @@
 {   
-  "name": "João Pedro Azevedo",
-  "email": "joaopzevedo@gmail.com",
-  "phone": "+55 (35) 99731-8190",
   "br": {
     "homepage": {
       "title1": "Olá, eu sou João Pedro",
@@ -10,8 +7,9 @@
       "downloadButton": "Baixar Currículo"
     },
     "about": {
-      "title": "Sobre mim",
-      "description": "Sou desenvolvedor front-end apaixonado por tecnologia, design e inovação."
+      "title": "Portifólio pessoal",
+      "description1": "Este portfólio foi desenvolvido com <strong>React</strong> e <strong>TypeScript</strong> utilizando o <strong>Vite</strong> para garantir uma estrutura moderna, rápida e eficiente. A interface responsiva foi construída com <strong>Material UI</strong> e estilizada com <strong>Styled Components</strong>, permitindo alternância entre <strong>temas claro e escuro</strong> via <strong>Context API</strong>. O site também conta com suporte <strong>multilíngue</strong> (<strong>Português</strong>, <strong>Inglês</strong> e <strong>Espanhol</strong>), <strong>controle de estado global</strong> e navegação fluida. Todos os conteúdos, como <strong>projetos</strong> e <strong>notícias</strong>, são carregados dinamicamente através da integração com a <strong>API do Google Sheets</strong>, permitindo atualizações sem necessidade de novo deploy.",
+      "description2": "Entre as páginas disponíveis, estão a <strong>introdução</strong> com <strong>download de currículo</strong> em PDF, uma <strong>galeria de projetos</strong> com imagens e descrições, seção de <strong>notícias</strong> e uma página dedicada ao <strong>currículo profissional</strong>. O site foi hospedado na <strong>Vercel</strong> para facilitar o <strong>deploy contínuo</strong> e otimizar o tempo de carregamento. Além disso, o <strong>rodapé</strong> centraliza os principais canais de <strong>contato</strong> e <strong>redes sociais</strong>, oferecendo uma maneira simples e direta de se conectar comigo. O resultado é um portfólio <strong>leve</strong>, <strong>funcional</strong> e preparado para diferentes públicos e dispositivos."
     },
     "contact": {
       "title": "Contato"
@@ -24,7 +22,7 @@
       "title": "Currículo",
       "location": "24 anos, Lavras/MG",
       "summaryTitle": "Resumo Profissional",
-      "summaryDescription": "Graduando em Ciência da Computação pela UFLA, com experiência em desenvolvimento web, automação de processos e análise de dados. Foco em responsividade, boas práticas de UI/UX e performance.",
+      "summaryDescription": "Estudante de Ciência da Computação na UFLA com experiência prática em desenvolvimento Front-End, atuando no Unilavras na criação e manutenção de páginas web responsivas e acessíveis. Familiaridade com tecnologias como HTML, CSS, JavaScript, React e TypeScript, com foco em UX/UI e boas práticas de código.",
       "hardSkills": "Habilidades Técnicas",
       "softSkills": "Habilidades Comportamentais",
       "experienceTitle":"Experiencias Profisionais",
@@ -90,178 +88,181 @@
     "theme": "Tema"
   },
   "en": {
-    "homepage": {
-      "title1": "Hi, I'm João Pedro",
-      "title2": "Front-End Developer",
-      "subtitle": "I work with React, TypeScript, JavaScript, HTML, CSS, and Python to build responsive and high-performance websites. I have experience in front-end development, process automation, and UI/UX best practices. I'm always focused on delivering user-centered and efficient solutions.",
-      "downloadButton": "Download Resume"
-    },
-    "about": {
-      "title": "About Me",
-      "description": "I'm a front-end developer passionate about technology, design, and innovation."
-    },
-    "contact": {
-      "title": "Contact"
-    },
-    "projects": {
-      "title": "Projects",
-      "subtitle": "Here you can find the main projects that were important for my learning journey, including personal, academic, and professional work."
-    },
-    "curriculum": {
-      "title": "Resume",
-      "location": "24 years old, Lavras/MG – Brazil",
-      "summaryTitle": "Professional Summary",
-      "summaryDescription": "Computer Science undergraduate at UFLA with experience in web development, process automation, and data analysis. Focused on responsive design, UI/UX best practices, and performance.",
-      "hardSkills": "Technical Skills",
-      "softSkills": "Soft Skills",
-      "experienceTitle":"Experiencias Profisionais",
-      "experience0": {
-        "position": "Web Development Intern – Unilavras",
-        "period": "Dec/2024 – Present",
-        "description": "Development of institutional pages using React, TypeScript, and Bootstrap. Focus on responsiveness, SEO, and collaboration with the marketing team."
-      },
-      "experience1": {
-        "position": "Data Analyst – Solar Gun",
-        "period": "Jan/2023 – Jun/2024",
-        "description": "Automated technical document analysis using Python and spreadsheet integration to streamline internal processes."
-      },
-      "experience2": {
-        "position": "Web Developer Trainee – Grupo Glorium",
-        "period": "Jun/2023 – Dec/2023",
-        "description": "Developed responsive websites using HTML, CSS (SASS), Bootstrap, JavaScript, and PHP. Focus on accessibility and UI/UX best practices."
-      },
-      "experience3": {
-        "position": "Data Analyst – Sol Nascente Energia Solar",
-        "period": "Jan/2022 – Dec/2022",
-        "description": "Monitored solar plant performance using Excel and created technical reports with actionable insights for clients."
-      },
-      "educationTitle": "Education",
-      "education": {
-        "title": "Bachelor’s Degree in Computer Science – UFLA",
-        "date": "(2022 – 2026)"
-      },
-      "certifications": {
-        "title": "Courses and Certifications",
-        "course0": {
-          "title": "Front-End Developer – DNC",
-          "hours": "(80h)",
-          "description": "HTML, CSS, JavaScript, Vite, React, TypeScript, unit testing with Jest, end-to-end testing, hooks, and Axios."
-        },
-        "course1": {
-          "title": "C# Fundamentals – Microsoft",
-          "hours": "(20h)",
-          "description": "Core concepts and foundations of the C# language."
-        },
-        "course2": {
-          "title": "IT Security – Fundação Bradesco",
-          "hours": "(12h)",
-          "description": "LGPD (Brazilian GDPR) and fundamentals of information security."
-        }
-      },
-      "languages": {
-        "title": "Languages",
-        "portuguese": {
-          "title": "Portuguese",
-          "proficiency": "Native"
-        },
-        "english": {
-          "title": "English",
-          "proficiency": "Intermediate"
-        },
-        "spanish": {
-          "title": "Spanish",
-          "proficiency": "Intermediate"
-        }
-      }
-    },
-    "theme": "Theme"
+  "homepage": {
+    "title1": "Hi, I'm João Pedro",
+    "title2": "Front-End Developer",
+    "subtitle": "I work with React, TypeScript, JavaScript, HTML, CSS, and Python, developing responsive and high-performance websites with a focus on UI/UX best practices. I have experience with process automation and I'm always looking to deliver functional and user-centered solutions.",
+    "downloadButton": "Download Resume"
   },
-  "es": {
-    "homepage": {
-      "title1": "Hola, soy João Pedro",
-      "title2": "Desarrollador Front-End",
-      "subtitle": "Especializado en React, TypeScript, JavaScript, HTML, CSS y Python, desarrollo sitios web responsivos, de alto rendimiento y centrados en las mejores prácticas de UI/UX. Con experiencia en automatización de procesos, mi objetivo es crear soluciones funcionales orientadas a la experiencia del usuario.",
-      "downloadButton": "Descargar CV"
+  "about": {
+    "title": "Personal Portfolio",
+    "description1": "This portfolio was developed using <strong>React</strong> and <strong>TypeScript</strong> with <strong>Vite</strong> to ensure a modern, fast, and efficient structure. The responsive interface was built with <strong>Material UI</strong> and styled using <strong>Styled Components</strong>, allowing toggling between <strong>light and dark themes</strong> via <strong>Context API</strong>. The site also includes <strong>multilingual support</strong> (<strong>Portuguese</strong>, <strong>English</strong>, and <strong>Spanish</strong>), <strong>global state management</strong>, and smooth navigation. All content, such as <strong>projects</strong> and <strong>news</strong>, is loaded dynamically through integration with the <strong>Google Sheets API</strong>, enabling updates without the need for a new deploy.",
+    "description2": "Available pages include an <strong>introduction</strong> with a <strong>PDF resume download</strong>, a <strong>project gallery</strong> with images and descriptions, a <strong>news section</strong>, and a page dedicated to the <strong>professional resume</strong>. The site is hosted on <strong>Vercel</strong> to facilitate <strong>continuous deployment</strong> and optimize loading speed. Additionally, the <strong>footer</strong> centralizes the main <strong>contact</strong> and <strong>social media</strong> channels, offering a simple and direct way to connect with me. The result is a <strong>lightweight</strong>, <strong>functional</strong>, and well-prepared portfolio for different audiences and devices."
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "This page lists the main projects that contributed to my learning. It includes personal, academic, and professional work."
+  },
+  "curriculum": {
+    "title": "Resume",
+    "location": "24 years old, Lavras/MG, Brazil",
+    "summaryTitle": "Professional Summary",
+    "summaryDescription": "Computer Science student at UFLA with hands-on experience in Front-End development, working at Unilavras creating and maintaining responsive and accessible web pages. Familiar with technologies such as HTML, CSS, JavaScript, React, and TypeScript, with a focus on UX/UI and clean code practices.",
+    "hardSkills": "Technical Skills",
+    "softSkills": "Soft Skills",
+    "experienceTitle": "Professional Experiences",
+    "experience0": {
+      "position": "Web Development Intern – Unilavras",
+      "period": "Dec/2024 – Present",
+      "description": "Development of institutional pages using React, TypeScript, and Bootstrap. Focus on responsiveness, SEO, and collaboration with the marketing team."
     },
-    "about": {
-      "title": "Sobre mí",
-      "description": "Desarrollador front-end apasionado por la tecnología, el diseño y la innovación. Comprometido con crear interfaces intuitivas y eficientes."
+    "experience1": {
+      "position": "Data Analyst – Solar Gun",
+      "period": "Jan/2023 – Jun/2024",
+      "description": "Automation of technical document analysis using Python and integration with spreadsheets to optimize internal processes."
     },
-    "contact": {
-      "title": "Contacto"
+    "experience2": {
+      "position": "Web Developer Training – Grupo Glorium",
+      "period": "Jun/2023 – Dec/2023",
+      "description": "Development of responsive websites using HTML, CSS (SASS), Bootstrap, JavaScript, and PHP. Focus on accessibility and UX/UI best practices."
     },
-    "projects": {
-      "title": "Proyectos",
-      "subtitle": "Selección de trabajos clave que han marcado mi trayectoria de aprendizaje, incluyendo proyectos personales, académicos y profesionales."
+    "experience3": {
+      "position": "Data Analyst – Sol Nascente Energia Solar",
+      "period": "Jan/2022 – Dec/2022",
+      "description": "Performance analysis of solar plants using Excel. Creation of technical reports with insights for clients."
     },
-    "curriculum": {
-      "title": "Currículum",
-      "location": "24 años, Lavras/MG - Brasil",
-      "summaryTitle": "Perfil Profesional",
-      "summaryDescription": "Estudiante de Ciencias de la Computación en la UFLA con experiencia en desarrollo web, automatización de procesos y análisis de datos. Especial enfoque en diseño responsivo, mejores prácticas de UI/UX y optimización de performance.",
-      "hardSkills": "Habilidades Técnicas",
-      "softSkills": "Habilidades Blandas",
-      "experienceTitle":"Experiencias Profisionais",
-      "experience0": {
-        "position": "Practicante en Desarrollo Web – Unilavras",
-        "period": "Dic/2024 – Actual",
-        "description": "Desarrollo de páginas institucionales utilizando React, TypeScript y Bootstrap. Enfoque en responsividad, SEO y trabajo colaborativo con el equipo de marketing."
+    "educationTitle": "Education",
+    "education": {
+      "title": "Bachelor's in Computer Science – UFLA",
+      "date": "(2022 – 2026)"
+    },
+    "certifications": {
+      "title": "Courses and Certifications",
+      "course0": {
+        "title": "Front-End Developer - DNC",
+        "hours": "(80h)",
+        "description": "HTML, CSS, JavaScript, Vite, React, TypeScript, unit testing with Jest, end-to-end testing, hooks, and Axios."
       },
-      "experience1": {
-        "position": "Analista de Datos – Solar Gun",
-        "period": "Ene/2023 – Jun/2024",
-        "description": "Automatización de análisis de documentos técnicos mediante Python e integración con hojas de cálculo para optimización de procesos internos."
+      "course1": {
+        "title": "C# Fundamentals - Microsoft",
+        "hours": "(20h)",
+        "description": "Concepts and fundamentals of the C# programming language."
       },
-      "experience2": {
-        "position": "Formación en Desarrollo Web – Grupo Glorium",
-        "period": "Jun/2023 – Dic/2023",
-        "description": "Creación de sitios web responsivos con HTML, CSS (SASS), Bootstrap, JavaScript y PHP. Énfasis en accesibilidad y mejores prácticas de UX/UI."
-      },
-      "experience3": {
-        "position": "Analista de Datos – Sol Nascente Energía Solar",
-        "period": "Ene/2022 – Dic/2022",
-        "description": "Análisis de desempeño de plantas solares utilizando Excel. Elaboración de informes técnicos con insights valiosos para clientes."
-      },
-      "educationTitle": "Formación Académica",
-      "education": {
-        "title": "Licenciatura en Ciencias de la Computación – UFLA",
-        "date": " (2022 – 2026)"
-      },
-      "certifications": {
-        "title": "Certificaciones y Cursos",
-        "course0": {
-          "title": "Desarrollador Front-End - DNC",
-          "hours": "(80h)",
-          "description": "Dominio de HTML, CSS, JavaScript, Vite, React, TypeScript, pruebas unitarias con Jest, pruebas end-to-end, hooks y Axios."
-        },
-        "course1": {
-          "title": "Fundamentos de C# - Microsoft",
-          "hours": "(20h)",
-          "description": "Conceptos esenciales y fundamentos del lenguaje C#."
-        },
-        "course2": {
-          "title": "Seguridad en TI - Fundación Bradesco",
-          "hours": "(12h)",
-          "description": "Conocimientos en LGPD (Ley de Protección de Datos) y fundamentos de seguridad informática."
-        }
-      },
-      "languages": {
-        "title": "Idiomas",
-        "portuguese": {
-          "title": "Portugués",
-          "proficiency": "Nativo"
-        },
-        "english": {
-          "title": "Inglés",
-          "proficiency": "Intermedio"
-        },
-        "spanish": {
-          "title": "Español",
-          "proficiency": "Intermedio"
-        }
+      "course2": {
+        "title": "IT Security - Fundação Bradesco",
+        "hours": "(12h)",
+        "description": "LGPD and information security fundamentals."
       }
     },
-    "theme": "Tema"
-  }
+    "languages": {
+      "title": "Languages",
+      "portuguese": {
+        "title": "Portuguese",
+        "proficiency": "Native"
+      },
+      "english": {
+        "title": "English",
+        "proficiency": "Intermediate"
+      },
+      "spanish": {
+        "title": "Spanish",
+        "proficiency": "Intermediate"
+      }
+    }
+  },
+  "theme": "Theme"
+},
+
+  "es": {
+  "homepage": {
+    "title1": "Hola, soy João Pedro",
+    "title2": "Desarrollador Front-End",
+    "subtitle": "Trabajo con React, TypeScript, JavaScript, HTML, CSS y Python, desarrollando sitios web responsivos, de alto rendimiento y enfocados en buenas prácticas de UI/UX. Tengo experiencia en automatización de procesos y siempre busco entregar soluciones funcionales y centradas en el usuario.",
+    "downloadButton": "Descargar Currículum"
+  },
+  "about": {
+    "title": "Portafolio personal",
+    "description1": "Este portafolio fue desarrollado con <strong>React</strong> y <strong>TypeScript</strong> utilizando <strong>Vite</strong> para garantizar una estructura moderna, rápida y eficiente. La interfaz responsiva fue construida con <strong>Material UI</strong> y estilizada con <strong>Styled Components</strong>, permitiendo la alternancia entre <strong>temas claro y oscuro</strong> a través de <strong>Context API</strong>. El sitio también ofrece soporte <strong>multilingüe</strong> (<strong>Portugués</strong>, <strong>Inglés</strong> y <strong>Español</strong>), <strong>gestión global de estado</strong> y navegación fluida. Todos los contenidos, como <strong>proyectos</strong> y <strong>noticias</strong>, se cargan dinámicamente a través de la integración con la <strong>API de Google Sheets</strong>, permitiendo actualizaciones sin necesidad de nuevo despliegue.",
+    "description2": "Entre las páginas disponibles están la <strong>introducción</strong> con <strong>descarga de currículum</strong> en PDF, una <strong>galería de proyectos</strong> con imágenes y descripciones, sección de <strong>noticias</strong> y una página dedicada al <strong>currículum profesional</strong>. El sitio fue alojado en <strong>Vercel</strong> para facilitar el <strong>despliegue continuo</strong> y optimizar el tiempo de carga. Además, el <strong>pie de página</strong> centraliza los principales canales de <strong>contacto</strong> y <strong>redes sociales</strong>, ofreciendo una manera simple y directa de conectar conmigo. El resultado es un portafolio <strong>ligero</strong>, <strong>funcional</strong> y preparado para diferentes públicos y dispositivos."
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "En esta página se listan los principales proyectos que contribuyeron a mi aprendizaje. Incluye trabajos personales, académicos y profesionales."
+  },
+  "curriculum": {
+    "title": "Currículum",
+    "location": "24 años, Lavras/MG, Brasil",
+    "summaryTitle": "Resumen Profesional",
+    "summaryDescription": "Estudiante de Ciencias de la Computación en UFLA con experiencia práctica en desarrollo Front-End, actuando en Unilavras en la creación y mantenimiento de páginas web responsivas y accesibles. Familiaridad con tecnologías como HTML, CSS, JavaScript, React y TypeScript, con enfoque en UX/UI y buenas prácticas de código.",
+    "hardSkills": "Habilidades Técnicas",
+    "softSkills": "Habilidades Interpersonales",
+    "experienceTitle": "Experiencias Profesionales",
+    "experience0": {
+      "position": "Practicante en Desarrollo Web – Unilavras",
+      "period": "Dic/2024 – Actualidad",
+      "description": "Desarrollo de páginas institucionales con React, TypeScript y Bootstrap. Enfoque en responsividad, SEO y colaboración con el equipo de marketing."
+    },
+    "experience1": {
+      "position": "Analista de Datos – Solar Gun",
+      "period": "Ene/2023 – Jun/2024",
+      "description": "Automatización del análisis de documentos técnicos utilizando Python e integración con hojas de cálculo para optimización de procesos internos."
+    },
+    "experience2": {
+      "position": "Capacitación en Desarrollo Web – Grupo Glorium",
+      "period": "Jun/2023 – Dic/2023",
+      "description": "Desarrollo de sitios responsivos con HTML, CSS (SASS), Bootstrap, JavaScript y PHP. Enfoque en accesibilidad y buenas prácticas de UX/UI."
+    },
+    "experience3": {
+      "position": "Analista de Datos – Sol Nascente Energía Solar",
+      "period": "Ene/2022 – Dic/2022",
+      "description": "Análisis de desempeño de plantas solares con Excel. Creación de informes técnicos con insights para clientes."
+    },
+    "educationTitle": "Formación Académica",
+    "education": {
+      "title": "Licenciatura en Ciencias de la Computación – UFLA",
+      "date": "(2022 – 2026)"
+    },
+    "certifications": {
+      "title": "Cursos y Certificaciones",
+      "course0": {
+        "title": "Desarrollador Front-End - DNC",
+        "hours": "(80h)",
+        "description": "HTML, CSS, JavaScript, Vite, React, TypeScript, pruebas unitarias con Jest, pruebas end-to-end, hooks y Axios."
+      },
+      "course1": {
+        "title": "Fundamentos de C# - Microsoft",
+        "hours": "(20h)",
+        "description": "Conceptos y fundamentos del lenguaje C#."
+      },
+      "course2": {
+        "title": "Seguridad en TI - Fundación Bradesco",
+        "hours": "(12h)",
+        "description": "LGPD y fundamentos de la seguridad de la información."
+      }
+    },
+    "languages": {
+      "title": "Idiomas",
+      "portuguese": {
+        "title": "Portugués",
+        "proficiency": "Nativo"
+      },
+      "english": {
+        "title": "Inglés",
+        "proficiency": "Intermedio"
+      },
+      "spanish": {
+        "title": "Español",
+        "proficiency": "Intermedio"
+      }
+    }
+  },
+  "theme": "Tema"
+}
 
 }

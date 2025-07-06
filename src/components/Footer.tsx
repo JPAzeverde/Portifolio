@@ -1,6 +1,6 @@
 // Footer.tsx
 import { Container, Grid } from '@mui/material';
-import { FacebookIcon, IconWrapper, InstagramIcon, LinkedInIcon, StyledH4, StyledP, WhatsAppIcon } from './Typographies';
+import { GitIcon, IconWrapper, InstagramIcon, LinkedInIcon, StyledH4, StyledP, WhatsAppIcon } from './Typographies';
 
 export function Footer() {
   return (
@@ -21,12 +21,12 @@ export function Footer() {
           }}
       >
           <IconWrapper
-          href="https://www.facebook.com/profile.php?id=100008388519984"
+          href="https://github.com/JPAzeverde"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
           >
-              <FacebookIcon />
+              <GitIcon />
           </IconWrapper>
           <IconWrapper
           href="https://www.instagram.com/jpazeverde/"

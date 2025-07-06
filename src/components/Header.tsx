@@ -12,7 +12,6 @@ import MenuIcon from "@mui/icons-material/Menu"
 const StyledHeader = styled.div`
     position: relative;
     border-bottom: ${pxToRem(1)} solid ${(props) => props.theme.borderBottomHeader};
-    margin-bottom: ${pxToRem(37)};
     width: 100%;
 `
 
