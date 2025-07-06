@@ -107,7 +107,6 @@ export function Header() {
                         <Link to='/project'>{translations.projects.title}</Link>
                         <Link to='/curriculo'>{translations.curriculum.title}</Link>
                         <a href='#FOOTER'>{translations.contact.title}</a>
-                        <Link to='/news'>News</Link>
                         <StyledButton className="theme" onClick={themeContext?.toggleTheme}>
                             {translations.theme}
                         </StyledButton>
@@ -138,9 +137,6 @@ export function Header() {
                         </MenuItem>
                         <MenuItem onClick={handleMenuClose}>
                             <a href='#FOOTER' style={{ color: '#000000' }}>{translations.contact.title}</a>
-                        </MenuItem>
-                        <MenuItem onClick={handleMenuClose}>
-                            <StyledLink to='/news'>News</StyledLink>
                         </MenuItem>
                         <MenuItem onClick={() => {
                             themeContext?.toggleTheme()
