@@ -226,8 +226,8 @@ export function CurriculoSection() {
                     <strong>{translations.curriculum.languages.spanish.title}:</strong> {translations.curriculum.languages.spanish.proficiency}
                     </StyledP>
                 </Grid>
-                <Grid size={{ xs: 12, md: 3 }}>
-                    <StyledButton className="primary" style={{margin: 'auto'}} onClick={baixarCurriculo}>{translations.homepage.downloadButton}</StyledButton>
+                <Grid size={{ xs: 12, md: 6 }}>
+                    <StyledButton className="primary" onClick={baixarCurriculo}>{translations.homepage.downloadButton}</StyledButton>
                 </Grid>
             </Grid>
         </Container>
