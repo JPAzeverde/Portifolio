@@ -138,7 +138,7 @@ export function CurriculoSection() {
                         {[
                         "Comunicação","Trabalho em equipe",
                         "Proatividade","Adaptabilidade",
-                        "Resolução de problemas","Gestão do tempo",
+                        "Resolução de problemas","Gestão do tempo ",
                         ].map((skill) => (
                         <Grid key={skill}>
                             <Chip>{skill}</Chip>
