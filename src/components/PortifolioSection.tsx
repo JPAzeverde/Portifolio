@@ -22,7 +22,7 @@ export function PortifolioSection({ children }: Props) {
         <StyledP
         className="mb-1 fz-18"
           dangerouslySetInnerHTML={{
-            __html: translations.about.description1,
+            __html: translations.about.description2,
           }}
         />
         {children}
