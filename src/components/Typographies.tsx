@@ -114,26 +114,31 @@ export const StyledSpan = styled.span<TypographiesProps>`
   }
 `
 
-export const IconWrapper = styled.a`
-  width: 32px;
-  height: 32px;
+interface IconWrapperProps {
+  size?: number;
+}
+
+export const IconWrapper = styled.a<IconWrapperProps>`
+  width: ${({ size }) => size || 22}px;
+  height: ${({ size }) => size || 22}px;
   margin-bottom: 12px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: ${({ theme }) => theme.colorPrimary};  // Cor que muda com tema
+  color: ${({ theme }) => theme.colorPrimary};
   transition: color 0.3s ease;
 
   &:hover {
-    color: ${({ theme }) => theme.buttons.primaryBackground}; // Outra cor ao hover
+    color: ${({ theme }) => theme.buttons.primaryBackground};
   }
 
   svg {
-    width: 24px;
-    height: 24px;
-    fill: currentColor; // Vai herdar a cor do pai (IconWrapper)
+    width: ${({ size }) => size || 22}px;
+    height: ${({ size }) => size || 22}px;
+    fill: currentColor;
   }
 `;
+
 
 export const GitIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">

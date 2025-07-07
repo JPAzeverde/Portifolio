@@ -32,19 +32,9 @@
         "description": "Desenvolvimento de páginas institucionais e não institucionais no WordPress com HTML, CSS e JavaScript. Foco em responsividade, SEO e colaboração com a equipe de marketing."
       },
       "experience1": {
-        "position": "Analista de Dados – Solar Gun",
-        "period": "Jan/2023 – Jun/2024",
-        "description": "Automatização de análises de documentos técnicos utilizando Python e integração com planilhas para otimização de processos internos."
-      },
-      "experience2": {
         "position": "Treinamento Web Developer – Grupo Glorium",
         "period": "Jun/2023 – Dez/2023",
-        "description": "Desenvolvimento de sites responsivos com HTML, CSS (SASS), Bootstrap, JavaScript e PHP. Foco em acessibilidade e boas práticas de UX/UI."
-      },
-      "experience3": {
-        "position": "Analista de Dados – Sol Nascente Energia Solar",
-        "period": "Jan/2022 – Dez/2022",
-        "description": "Análise de desempenho de usinas solares com Excel. Criação de relatórios técnicos com insights para clientes."
+        "description": "Desenvolvimento de sites responsivos com HTML, CSS (SASS), Bootstrap, JavaScript e PHP. Foco em responsividade e boas práticas de UX/UI."
       },
       "educationTitle": "Formação Acadêmica",
       "education": {
@@ -120,19 +110,9 @@
       "description": "Development of institutional and non-institutional pages in WordPress using HTML, CSS, and JavaScript. Focused on responsiveness, SEO, and collaboration with the marketing team."
     },
     "experience1": {
-      "position": "Data Analyst – Solar Gun",
-      "period": "Jan/2023 – Jun/2024",
-      "description": "Automation of technical document analysis using Python and integration with spreadsheets to optimize internal processes."
-    },
-    "experience2": {
       "position": "Web Developer Training – Grupo Glorium",
       "period": "Jun/2023 – Dec/2023",
       "description": "Development of responsive websites using HTML, CSS (SASS), Bootstrap, JavaScript, and PHP. Focus on accessibility and UX/UI best practices."
-    },
-    "experience3": {
-      "position": "Data Analyst – Sol Nascente Energia Solar",
-      "period": "Jan/2022 – Dec/2022",
-      "description": "Performance analysis of solar plants using Excel. Creation of technical reports with insights for clients."
     },
     "educationTitle": "Education",
     "education": {
@@ -209,19 +189,9 @@
       "description": "Desarrollo de páginas institucionales y no institucionales en WordPress utilizando HTML, CSS y JavaScript. Enfocado en la responsividad, el SEO y la colaboración con el equipo de marketing."
     },
     "experience1": {
-      "position": "Analista de Datos – Solar Gun",
-      "period": "Ene/2023 – Jun/2024",
-      "description": "Automatización del análisis de documentos técnicos utilizando Python e integración con hojas de cálculo para optimización de procesos internos."
-    },
-    "experience2": {
       "position": "Capacitación en Desarrollo Web – Grupo Glorium",
       "period": "Jun/2023 – Dic/2023",
       "description": "Desarrollo de sitios responsivos con HTML, CSS (SASS), Bootstrap, JavaScript y PHP. Enfoque en accesibilidad y buenas prácticas de UX/UI."
-    },
-    "experience3": {
-      "position": "Analista de Datos – Sol Nascente Energía Solar",
-      "period": "Ene/2022 – Dic/2022",
-      "description": "Análisis de desempeño de plantas solares con Excel. Creación de informes técnicos con insights para clientes."
     },
     "educationTitle": "Formación Académica",
     "education": {

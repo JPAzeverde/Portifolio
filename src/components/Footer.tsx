@@ -18,13 +18,15 @@ export function Footer() {
           justifyContent: "center",
           margin:"auto",
           gap: 1,
+          mb:6
           }}
       >
           <IconWrapper
           href="https://github.com/JPAzeverde"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Facebook"
+          aria-label="GitHub"
+          size={60}
           >
               <GitIcon />
           </IconWrapper>
@@ -33,6 +35,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
+          size={60}
           >
           <InstagramIcon />
           </IconWrapper>
@@ -41,6 +44,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
+          size={60}
           >
           <LinkedInIcon />
           </IconWrapper>
@@ -49,6 +53,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"
+          size={60}
           >
           <WhatsAppIcon />
           </IconWrapper>

@@ -14,9 +14,4 @@ export const CardComponent = styled.div`
         color:inherit
         text-decoration:none;
     }
-    &:hover {
-        h4, p, span {
-            color: ${(props) => props.theme.primaryHover};
-        }
-    }
 `

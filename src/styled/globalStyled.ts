@@ -62,5 +62,5 @@ export const GlobalStyles = createGlobalStyle<{ theme?: DefaultTheme }>`
         line-height: 1.4em; /* ou outro valor consistente com seu StyledH4 */
         height: calc(1.4em * 2); /* altura exata de 2 linhas */
     }
-
+    
 `

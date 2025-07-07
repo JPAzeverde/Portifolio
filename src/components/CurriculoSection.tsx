@@ -71,7 +71,8 @@ export function CurriculoSection() {
                     href="https://github.com/JPAzeverde"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Facebook"
+                    aria-label="GitHub"
+                    size={26}
                     >
                         <GitIcon />
                     </IconWrapper>
@@ -80,6 +81,7 @@ export function CurriculoSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram"
+                    size={26}
                     >
                     <InstagramIcon />
                     </IconWrapper>
@@ -88,6 +90,7 @@ export function CurriculoSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
+                    size={26}
                     >
                     <LinkedInIcon />
                     </IconWrapper>
@@ -96,6 +99,7 @@ export function CurriculoSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="WhatsApp"
+                    size={26}
                     >
                     <WhatsAppIcon />
                     </IconWrapper>
@@ -153,26 +157,16 @@ export function CurriculoSection() {
                     descricao: `${translations.curriculum.experience0.description}`,
                     },
                     {
-                    cargo: `${translations.curriculum.experience2.position}`,
-                    periodo: `${translations.curriculum.experience2.period}`,
-                    descricao: `${translations.curriculum.experience2.description}`,
-                    },
-                    {
                     cargo: `${translations.curriculum.experience1.position}`,
                     periodo: `${translations.curriculum.experience1.period}`,
                     descricao: `${translations.curriculum.experience1.description}`,
-                    },
-                    {
-                    cargo: `${translations.curriculum.experience3.position}`,
-                    periodo: `${translations.curriculum.experience3.period}`,
-                    descricao: `${translations.curriculum.experience3.description}`,
                     }
                 ].map((exp, index) => (
                     <Grid key={index} size={{ xs: 12, md: 6 }}>
                     <CardComponent>
-                        <StyledH4 className="mb-1 ellipsisH4">{exp.cargo}</StyledH4>
+                        <StyledH4 className="mb-1">{exp.cargo}</StyledH4>
                         <StyledP className="mb-1"><strong>{exp.periodo}</strong></StyledP>
-                        <StyledP className="ellipsisP">{exp.descricao}</StyledP>
+                        <StyledP>{exp.descricao}</StyledP>
                     </CardComponent>
                     </Grid>
                 ))}
