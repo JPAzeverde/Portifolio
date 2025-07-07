@@ -1,5 +1,5 @@
 import { Box, Container, Grid } from "@mui/material";
-import {GitIcon,InstagramIcon,LinkedInIcon, StyledH3,StyledH4, StyledP,WhatsAppIcon,IconWrapper, StyledButton} from "@/components";
+import {GitIcon,InstagramIcon,LinkedInIcon, StyledH3,StyledH4, StyledP,WhatsAppIcon,IconWrapper, StyledButton, StyledH5} from "@/components";
 import { pxToRem } from "@/utils";
 import styled from "styled-components";
 import { CardComponent } from "@/styled";
@@ -154,17 +154,20 @@ export function CurriculoSection() {
                 {[ {
                     cargo: `${translations.curriculum.experience0.position}`,
                     periodo: `${translations.curriculum.experience0.period}`,
+                    enterprise: `${translations.curriculum.experience0.enterprise}`,
                     descricao: `${translations.curriculum.experience0.description}`,
                     },
                     {
                     cargo: `${translations.curriculum.experience1.position}`,
                     periodo: `${translations.curriculum.experience1.period}`,
+                    enterprise: `${translations.curriculum.experience1.enterprise}`,
                     descricao: `${translations.curriculum.experience1.description}`,
                     }
                 ].map((exp, index) => (
                     <Grid key={index} size={{ xs: 12, md: 6 }}>
                     <CardComponent>
-                        <StyledH4 className="mb-1">{exp.cargo}</StyledH4>
+                        <StyledH4 className="mb-1 title-experience">{exp.cargo}</StyledH4>
+                        <StyledH5 className="mb-1">{exp.enterprise}</StyledH5>
                         <StyledP className="mb-1"><strong>{exp.periodo}</strong></StyledP>
                         <StyledP>{exp.descricao}</StyledP>
                     </CardComponent>

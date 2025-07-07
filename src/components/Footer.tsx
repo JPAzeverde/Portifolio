@@ -1,13 +1,15 @@
 // Footer.tsx
 import { Container, Grid } from '@mui/material';
 import { GitIcon, IconWrapper, InstagramIcon, LinkedInIcon, StyledH4, StyledP, WhatsAppIcon } from './Typographies';
+import { useLanguage } from '@/context';
 
 export function Footer() {
+  const { translations } = useLanguage();
   return (
     <Container id="FOOTER">
       <Grid container spacing={0} justifyContent="center" alignItems="center" className="mb-2 mt-2">
         <Grid size={{ xs:12}}  sx={{textAlign:"center"}}>
-          <StyledH4 className='mb-1'>Contato</StyledH4>
+          <StyledH4 className='mb-1'>{translations.contact.title}</StyledH4>
         </Grid>
         <Grid
           size={{ xs:12}}

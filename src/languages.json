@@ -27,12 +27,14 @@
       "softSkills": "Habilidades Comportamentais",
       "experienceTitle":"Experiencias Profisionais",
       "experience0": {
-        "position": "Estagiário em Desenvolvimento Web – Unilavras",
+        "position": "Estagiário em Desenvolvimento Web",
+        "enterprise": "Unilavras",
         "period": "Dez/2024 – Atual",
         "description": "Desenvolvimento de páginas institucionais e não institucionais no WordPress com HTML, CSS e JavaScript. Foco em responsividade, SEO e colaboração com a equipe de marketing."
       },
       "experience1": {
-        "position": "Treinamento Web Developer – Grupo Glorium",
+        "position": "Treinamento Web Developer",
+        "enterprise":" Grupo Glorium",
         "period": "Jun/2023 – Dez/2023",
         "description": "Desenvolvimento de sites responsivos com HTML, CSS (SASS), Bootstrap, JavaScript e PHP. Foco em responsividade e boas práticas de UX/UI."
       },

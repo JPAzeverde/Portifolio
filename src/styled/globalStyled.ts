@@ -62,5 +62,14 @@ export const GlobalStyles = createGlobalStyle<{ theme?: DefaultTheme }>`
         line-height: 1.4em; /* ou outro valor consistente com seu StyledH4 */
         height: calc(1.4em * 2); /* altura exata de 2 linhas */
     }
+    .title-experience {
+        line-height: 1.5em;       
+        height: calc(1.5em * 2);  
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
     
 `
