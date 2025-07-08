@@ -27,13 +27,13 @@
       "softSkills": "Habilidades Comportamentais",
       "experienceTitle":"Experiencias Profisionais",
       "experience0": {
-        "position": "Estagiário - Desenvolvimento Front-End",
+        "position": "Estagiário - Desenvolvedor Front-End",
         "enterprise": "Unilavras",
         "period": "Dez/2024 – Atual",
         "description": "Desenvolvimento de páginas institucionais e não institucionais no WordPress com HTML, CSS e JavaScript. Foco em responsividade, SEO e colaboração com a equipe de marketing."
       },
       "experience1": {
-        "position": "Treinamento Web Developer",
+        "position": "Treinamento - Desenvolvedor Front-End",
         "enterprise":"Grupo Glorium",
         "period": "Jun/2023 – Dez/2023",
         "description": "Desenvolvimento de sites responsivos com HTML, CSS (SASS), Bootstrap, JavaScript e PHP. Foco em responsividade e boas práticas de UX/UI."
