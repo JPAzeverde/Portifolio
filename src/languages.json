@@ -107,12 +107,14 @@
     "softSkills": "Soft Skills",
     "experienceTitle": "Professional Experiences",
     "experience0": {
-      "position": "Web Development Intern – Unilavras",
+      "position": "Web Development Intern",
+      "enterprise":"Unilavras",
       "period": "Dec/2024 – Present",
       "description": "Development of institutional and non-institutional pages in WordPress using HTML, CSS, and JavaScript. Focused on responsiveness, SEO, and collaboration with the marketing team."
     },
     "experience1": {
-      "position": "Web Developer Training – Grupo Glorium",
+      "position": "Web Developer Training ",
+      "enterprise":"Grupo Glorium",
       "period": "Jun/2023 – Dec/2023",
       "description": "Development of responsive websites using HTML, CSS (SASS), Bootstrap, JavaScript, and PHP. Focus on accessibility and UX/UI best practices."
     },
@@ -186,12 +188,14 @@
     "softSkills": "Habilidades Interpersonales",
     "experienceTitle": "Experiencias Profesionales",
     "experience0": {
-      "position": "Practicante en Desarrollo Web – Unilavras",
+      "position": "Practicante en Desarrollo Web",
+      "enterprise":"Unilavras",
       "period": "Dic/2024 – Actualidad",
       "description": "Desarrollo de páginas institucionales y no institucionales en WordPress utilizando HTML, CSS y JavaScript. Enfocado en la responsividad, el SEO y la colaboración con el equipo de marketing."
     },
     "experience1": {
-      "position": "Capacitación en Desarrollo Web – Grupo Glorium",
+      "position": "Capacitación en Desarrollo Web",
+      "enterprise":"Grupo Glorium",
       "period": "Jun/2023 – Dic/2023",
       "description": "Desarrollo de sitios responsivos con HTML, CSS (SASS), Bootstrap, JavaScript y PHP. Enfoque en accesibilidad y buenas prácticas de UX/UI."
     },
