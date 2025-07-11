@@ -9,9 +9,9 @@
     "about": {
       "title": "Sobre Mim",
       "description1": "Atualmente no 5º período de Ciência da Computação na UFLA, atuo há mais de um ano com desenvolvimento web em projetos pessoais, acadêmicos e profissionais. Tenho domínio sólido de HTML, CSS e JavaScript, além de experiência prática com React (Hooks, Router), testes com Jest e Cypress, e criação de APIs com Node.js.",
-      "description2": "Durante minha jornada, participei de projetos reais tanto no Unilavras, como estagiário, quanto no grupo Gloriumm, o que me proporcionou vivência em equipes multidisciplinares e foco em entregas com qualidade. Atuo hoje na equipe de marketing do Unilavras, desenvolvendo soluções front-end alinhadas à identidade visual da instituição.",
-      "description3": "Concluí o curso de Desenvolvedor Front-End da DNC e busco constantemente expandir minhas habilidades — inclusive aprendi Tailwind CSS por conta prória. Também tenho familiaridade com ferramentas de versionamento como Git e organização de branches por ambiente de desenvolvimento.",
-      "description4": "Gosto de criar interfaces funcionais, acessíveis e com atenção ao detalhe. Valorizo o trabalho em equipe, a organização por etapas e o aprendizado contínuo. Neste portfólio, compartilho projetos que refletem minha evolução técnica e meu compromisso com o desenvolvimento web moderno.s"
+      "description2": "Durante minha jornada, participei de projetos reais tanto no Unilavras, como estagiário, quanto no grupo Gloriumm. Isso me proporcionou vivência em equipes multidisciplinares e foco em entregas com qualidade. Hoje, atuo na equipe de marketing do Unilavras, desenvolvendo soluções front-end alinhadas à identidade visual da instituição.",
+      "description3": "Concluí o curso de Desenvolvedor Front-End da DNC e busco constantemente expandir minhas habilidades — inclusive aprendi Tailwind CSS por conta própria. Também tenho familiaridade com ferramentas de versionamento como Git e organização de branches por ambiente de desenvolvimento.",
+      "description4": "Gosto de criar interfaces funcionais, acessíveis e com atenção ao detalhe. Valorizo o trabalho em equipe, a organização por etapas e o aprendizado contínuo. Neste portfólio, compartilho projetos que refletem minha evolução técnica e meu compromisso com o desenvolvimento web moderno."
     },
     "contact": {
       "title": "Contato"
@@ -90,11 +90,12 @@
   },
   "about": {
     "title": "About Me",
-    "description1": "Currently in the 5th semester of Computer Science at UFLA, I have over a year of experience in web development through personal, academic, and professional projects. I have solid knowledge of HTML, CSS, and JavaScript, as well as hands-on experience with React (Hooks, Router), testing with Jest and Cypress, and API creation using Node.js.",
-    "description2": "Throughout my journey, I’ve taken part in real-world projects both at Unilavras, as an intern, and at the Gloriumm group, which gave me valuable experience working in multidisciplinary teams and delivering quality-focused results. I currently work in the marketing team at Unilavras, developing front-end solutions aligned with the institution's visual identity.",
-    "description3": "I completed the Front-End Developer course at DNC and am constantly seeking to expand my skills — I even learned Tailwind CSS on my own. I’m also familiar with version control tools like Git and with organizing branches for different development environments.",
-    "description4": "I enjoy creating functional, accessible, and detail-oriented interfaces. I value teamwork, step-by-step organization, and continuous learning. In this portfolio, I share projects that reflect both my technical growth and my commitment to modern web development."
-  },
+    "description1": "Currently in the 5th semester of Computer Science at UFLA, I have been working for over a year with web development in personal, academic, and professional projects. I have solid skills in HTML, CSS, and JavaScript, as well as practical experience with React (Hooks, Router), testing with Jest and Cypress, and API development using Node.js.",
+    "description2": "During my journey, I participated in real projects both at Unilavras as an intern and at the Gloriumm group. This gave me experience working in multidisciplinary teams and a focus on delivering quality results. Today, I work on the marketing team at Unilavras, developing front-end solutions aligned with the institution's visual identity.",
+    "description3": "I completed the Front-End Developer course at DNC and I am constantly seeking to expand my skills — including learning Tailwind CSS on my own. I am also familiar with version control tools like Git and branch organization by development environment.",
+    "description4": "I enjoy creating functional, accessible interfaces with attention to detail. I value teamwork, step-by-step organization, and continuous learning. In this portfolio, I share projects that reflect my technical growth and commitment to modern web development."
+},
+
   "contact": {
     "title": "Contact"
   },
@@ -173,11 +174,12 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "description1": "Actualmente en el quinto semestre de Ciencias de la Computación en la UFLA, tengo más de un año de experiencia en desarrollo web a través de proyectos personales, académicos y profesionales. Tengo un sólido dominio de HTML, CSS y JavaScript, además de experiencia práctica con React (Hooks, Router), pruebas con Jest y Cypress, y creación de APIs con Node.js.",
-    "description2": "A lo largo de mi trayectoria, participé en proyectos reales tanto en Unilavras, como pasante, como en el grupo Gloriumm, lo que me brindó experiencia en equipos multidisciplinarios y un enfoque en entregas de calidad. Actualmente formo parte del equipo de marketing de Unilavras, desarrollando soluciones front-end alineadas con la identidad visual de la institución.",
-    "description3": "Completé el curso de Desarrollador Front-End de DNC y busco constantemente expandir mis habilidades — incluso aprendí Tailwind CSS por mi cuenta. También tengo familiaridad con herramientas de control de versiones como Git y con la organización de ramas según el entorno de desarrollo.",
+    "description1": "Actualmente, estoy en el 5º semestre de Ciencias de la Computación en UFLA y llevo más de un año trabajando en desarrollo web en proyectos personales, académicos y profesionales. Tengo un dominio sólido de HTML, CSS y JavaScript, además de experiencia práctica con React (Hooks, Router), pruebas con Jest y Cypress, y creación de APIs con Node.js.",
+    "description2": "Durante mi trayectoria, participé en proyectos reales tanto en Unilavras como pasante, como en el grupo Gloriumm. Esto me proporcionó experiencia en equipos multidisciplinarios y un enfoque en entregas de calidad. Actualmente, trabajo en el equipo de marketing de Unilavras, desarrollando soluciones front-end alineadas con la identidad visual de la institución.",
+    "description3": "Completé el curso de Desarrollador Front-End en DNC y busco constantemente ampliar mis habilidades — incluso aprendí Tailwind CSS por mi cuenta. También estoy familiarizado con herramientas de control de versiones como Git y la organización de ramas según el entorno de desarrollo.",
     "description4": "Me gusta crear interfaces funcionales, accesibles y con atención al detalle. Valoro el trabajo en equipo, la organización por etapas y el aprendizaje continuo. En este portafolio, comparto proyectos que reflejan mi evolución técnica y mi compromiso con el desarrollo web moderno."
   },
+
   "contact": {
     "title": "Contacto"
   },

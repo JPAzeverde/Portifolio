@@ -38,7 +38,7 @@ export const StyledButton = styled.button<ButtonProps>`
       color: ${(props) => props.theme.buttons.themeColorHover};
     }
   }
-  &.language {
+  &.round {
     background-color: transparent;
     width: ${pxToRem(28)};
     height: ${pxToRem(28)};

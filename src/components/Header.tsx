@@ -72,19 +72,19 @@ export function Header() {
         <StyledHeader>
             <LanguageSwitcherContainer>
                 {language !== "en" && (
-                    <StyledButton className="language" onClick={() => setLanguage("en")}>
+                    <StyledButton className="round" onClick={() => setLanguage("en")}>
                         <img src="usa.png" alt="English" />
                     </StyledButton>
                 )}
 
                 {language !== "es" && (
-                    <StyledButton className="language" onClick={() => setLanguage("es")}>
+                    <StyledButton className="round" onClick={() => setLanguage("es")}>
                         <img src="espanha.png" alt="Español" />
                     </StyledButton>
                 )}
 
                 {language !== "br" && (
-                    <StyledButton className="language" onClick={() => setLanguage("br")}>
+                    <StyledButton className="round" onClick={() => setLanguage("br")}>
                         <img src="brasil.png" alt="Português" />
                     </StyledButton>
                 )}
@@ -107,9 +107,14 @@ export function Header() {
                         <Link to='/project'>{translations.projects.title}</Link>
                         <Link to='/curriculo'>{translations.curriculum.title}</Link>
                         <a href='#FOOTER'>{translations.contact.title}</a>
-                        <StyledButton className="theme" onClick={themeContext?.toggleTheme}>
-                            {translations.theme}
+                        <StyledButton className="round" onClick={themeContext?.toggleTheme} aria-label="Toggle theme">
+                            <img
+                                src={themeContext?.appTheme === 'light' ? '/dark_theme.svg' : '/light_theme.svg'}
+                                alt={themeContext?.appTheme === 'light' ? 'Dark mode icon' : 'Light mode icon'}
+                                style={{ width: '24px', height: '24px', filter: themeContext?.appTheme === 'dark' ? 'brightness(0) invert(1)' : 'none' }}
+                            />
                         </StyledButton>
+
                     </LinksContainer>
 
                     <MenuButton className="theme" onClick={handleMenuClick}>
@@ -142,7 +147,11 @@ export function Header() {
                             themeContext?.toggleTheme()
                             handleMenuClose()
                         }}>
-                            {translations.theme}
+                            <img
+                                src={themeContext?.appTheme === 'light' ? '/dark_theme.svg' : '/light_theme.svg'}
+                                alt={themeContext?.appTheme === 'light' ? 'Dark mode icon' : 'Light mode icon'}
+                                style={{ width: '24px', height: '24px' }}
+                            />
                         </MenuItem>
                     </Menu>
                 </Box>
