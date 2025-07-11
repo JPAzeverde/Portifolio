@@ -26,7 +26,7 @@ const LinksContainer = styled(Box)`
   gap: ${pxToRem(20)};
   color: #000000;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     display: none;
   }
 `;
@@ -34,7 +34,7 @@ const LinksContainer = styled(Box)`
 const MenuButton = styled(StyledButton)`
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@ const LanguageSwitcherContainer = styled.div`
   right: ${pxToRem(10)};
   display: flex;
   gap: ${pxToRem(10)};
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     display: none;
   }
 `;
